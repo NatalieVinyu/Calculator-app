@@ -1,0 +1,23 @@
+.calculator {
+    margin: 105px;
+    position: relative;
+}
+
+.display {
+    width: 280px;
+    height: 50px;
+}
+
+#zero-number {
+    width: 142px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
