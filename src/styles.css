@@ -1,15 +1,33 @@
+.container {
+    margin: 80px;
+}
+
 .calculator {
-    margin: 105px;
+    max-width: 288px;
     position: relative;
+    border: 1px solid black;
+    padding: 20px 15px;
+    border-radius: 25px;
+    background-color: black;
 }
 
 .display {
     width: 280px;
     height: 50px;
+    margin-bottom: 15px;
+    padding: 6px;
+    text-align: right;
+    font-size: 70px;
+    border: none;
+    background-color: black;
 }
 
 #zero-number {
     width: 142px;
+}
+
+body {
+    background-color: #EDF0F1;
 }
 
 button {
@@ -21,3 +39,21 @@ button {
     font-size: 20px;
     cursor: pointer;
 }
+
+button:hover {
+    scale: 1.1;
+}
+
+button.btn-number {
+    background-color: #333333;
+    color: white;
+}
+
+button.btn-operator-top {
+    background-color: #A5A5A5;
+}
+
+button.btn-operator-right {
+    background-color: #F49C3F;
+}
+
